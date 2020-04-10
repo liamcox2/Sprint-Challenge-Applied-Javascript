@@ -40,7 +40,7 @@ function cardCreator(data) {
 
     // Text content
     headline1.textContent = data.headline;
-    img.textContent = data.authorPhoto;
+    img.src = data.authorPhoto;
     span.textContent = data.authorName;
 
     return card;
